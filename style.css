@@ -1,0 +1,32 @@
+a {
+    color: #f00;
+}
+
+h2 {
+    font-family: IBM Plex Serif;
+}
+
+h1 {
+    font-family: IBM Plex Serif;
+}
+
+::selection {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: "IBM Plex Sans Thai Looped"; 
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.blog-post {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 800px; /* Optional: maximum width */
+    margin: 10px; /* Optional: margin around the blog post */
+    padding: 10px;
+}
