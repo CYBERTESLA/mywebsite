@@ -37,7 +37,7 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Ensures images wrap on smaller screens */
+    flex-wrap: nowrap; /* Ensures images wrap on smaller screens */
 }
 .image1 {
     flex: 1 1 70%; /* Adjust the width as needed */
