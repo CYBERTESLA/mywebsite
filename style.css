@@ -34,7 +34,7 @@ body {
 
 
 
-.container {
+.image_container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap; /* Ensures images wrap on smaller screens */
@@ -53,5 +53,25 @@ body {
 }
 .image2 img {
     width: 100%;
+    height: auto;
+}
+
+
+.text_image_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+}
+.text {
+    flex: 1 1 60%; /* Adjust the width as needed */
+    margin: 10px;
+}
+.text_image {
+    flex: 1 1 30%; /* Adjust the width as needed */
+    margin: 10px;
+}
+.text_image img {
+    width: 70%;
     height: auto;
 }
