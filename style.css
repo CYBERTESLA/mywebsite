@@ -47,7 +47,11 @@ body {
     flex: 1 1 20%; /* Adjust the width as needed */
     margin: 10px; /* Space between images */
 }
-.image1 img, .image2 img {
+.image1 img {
+    width: 100%;
+    height: auto;
+}
+.image2 img {
     width: 100%;
     height: auto;
 }
