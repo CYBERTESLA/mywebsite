@@ -1,5 +1,6 @@
 a {
     color: #f00;
+    /* color: #6741d9 (purple) */ 
 }
 
 h2 {
@@ -7,7 +8,7 @@ h2 {
 }
 
 h1 {
-    font-family: IBM Plex Serif;
+    font-family: IBM Plex Serif;    
 }
 
 ::selection {
