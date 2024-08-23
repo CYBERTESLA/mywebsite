@@ -31,3 +31,23 @@ body {
     margin: 10px; /* Optional: margin around the blog post */
     padding: 10px;
 }
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensures images wrap on smaller screens */
+}
+.image1 {
+    flex: 1 1 70%; /* Adjust the width as needed */
+    margin: 10px; /* Space between images */
+}
+.image2 {
+    flex: 1 1 20%; /* Adjust the width as needed */
+    margin: 10px; /* Space between images */
+}
+.image1 img, .image2 img {
+    width: 100%;
+    height: auto;
+}
