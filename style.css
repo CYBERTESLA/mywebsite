@@ -37,7 +37,7 @@ body {
 .image_container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Ensures images wrap on smaller screens */
+    flex-wrap: nowrap; /* Ensures images wrap on smaller screens */
 }
 .image1 {
     flex: 1 1 70%; /* Adjust the width as needed */
@@ -61,7 +61,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start; /* Align items at the top */
-    flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+    flex-wrap: nowrap; /* Ensure wrapping on smaller screens */
 }
 .text {
     flex: 1 1 60%; /* Adjust the width as needed */
