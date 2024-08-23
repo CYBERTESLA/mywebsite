@@ -3,6 +3,12 @@ a {
     /* color: #6741d9 (purple) */ 
 }
 
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+
 h2 {
     font-family: IBM Plex Serif;
 }
