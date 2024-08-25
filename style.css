@@ -55,3 +55,15 @@ body {
     width: 100%;
     height: auto;
 }
+
+.quote {
+    font-style: italic;
+    color: #555; /* Adjust the color as needed */
+    border-left: 4px solid #ccc; /* Left border for the quote */
+    padding-left: 10px; /* Space between the border and the text */
+    margin: 20px 0; /* Space above and below the quote */
+    background-color: #f9f9f9; /* Optional: background color for the quote */
+    padding: 10px 20px; /* Padding inside the quote */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: shadow for a nice effect */
+}
