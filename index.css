@@ -35,13 +35,21 @@ html, body {
     font-weight: 100;
     line-height: 1.4em;
 }
+/*
+width: 100%; and height: 100%; ensure that the html and body elements take up the full viewport.
+margin: 0; removes any default margin that might be applied by the browser, ensuring the content starts from the edge of the viewport.
+*/
 
 .blog-post {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
 }
-
+/*
+width: 100%; allows the containers to take up the full width of their parent container.
+max-width: 800px; limits the maximum width of these containers to 800px, ensuring they don't stretch too wide on large screens.
+margin: 0 auto; centers the containers horizontally by setting the left and right margins to auto.
+*/
 
 
 .container { /* For keeping the image and mascot side by side */
