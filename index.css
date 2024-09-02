@@ -1,0 +1,81 @@
+a {
+    color: #f00;
+    /* color: #6741d9 (purple) */ 
+}
+
+h2 {
+    font-family: IBM Plex Serif;
+}
+
+h1 {
+    font-family: IBM Plex Serif;    
+}
+
+::selection {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+/*
+How did I center the site?
+
+*/
+
+
+html, body {
+    width: 90%; 
+    height: 100%;
+    margin: 0px auto;
+    background: #fff;
+    color: #333;
+    /* font-family: 'Helvetica', 'Arial', sans-serif; #From Nicky*/ 
+    font-family: "IBM Plex Sans Thai Looped";
+    font-size: 23px;
+    font-weight: 100;
+    line-height: 1.4em;
+}
+
+.blog-post {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+.container { /* For keeping the image and mascot side by side */
+    display: flex; /* flexbox */ 
+    justify-content: center; /* centers the child elements horizontally within the .container. */
+    flex-wrap: nowrap; /* prevents the images from wrapping to the next line on smaller screens. If you want them to wrap, you can use flex-wrap: wrap;. */
+}
+.image1 {
+    flex: 1 1 70%; /* Adjust the width as needed */
+    margin: 10px; /* Space between images */
+}
+.image2 {
+    flex: 1 1 20%; /* Adjust the width as needed */
+    margin: 10px; /* Space between images */
+}
+.image1 img {
+    width: 100%;
+    height: auto;
+}
+.image2 img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.quote {
+    font-style: italic;
+    color: #555; /* Adjust the color as needed */
+    border-left: 4px solid #ccc; /* Left border for the quote */
+    padding-left: 10px; /* Space between the border and the text */
+    margin: 20px 0; /* Space above and below the quote */
+    background-color: #f9f9f9; /* Optional: background color for the quote */
+    padding: 10px 20px; /* Padding inside the quote */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: shadow for a nice effect */
+}
