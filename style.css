@@ -16,28 +16,38 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
+
+/*
+How did I center the site?
+- Turned the body into a flex container
+- Made a child element called blog-post
+- Set it's width as 80% of parent element (body)
+- Set it's max width as 800px
+*/
+
+
 body {
     font-family: "IBM Plex Sans Thai Looped"; 
     font-size: large;
-    display: flex;
-    justify-content: center;
-    margin: 0;
+    display: flex; /* flexbox */
+    justify-content: center; /* horizontally centers the content within the body. */
+    margin: 0; /* ensure there are no default margins or paddings that could affect the centering. */
     padding: 0;
 }
 
 .blog-post {
-    width: 80%; /* Adjust the width as needed */
-    max-width: 800px; /* Optional: maximum width */
+    width: 80%; /* Adjust the width as needed; sets the width to 80% of its parent container */
+    max-width: 800px; /* Optional: maximum width; ensures that the .blog-post container does not exceed 800px in width, providing a maximum limit */
     margin: 10px; /* Optional: margin around the blog post */
     padding: 10px;
 }
 
 
 
-.container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap; /* Ensures images wrap on smaller screens */
+.container { /* For keeping the image and mascot side by side */
+    display: flex; /* flexbox */ 
+    justify-content: center; /* centers the child elements horizontally within the .container. */
+    flex-wrap: nowrap; /* prevents the images from wrapping to the next line on smaller screens. If you want them to wrap, you can use flex-wrap: wrap;. */
 }
 .image1 {
     flex: 1 1 70%; /* Adjust the width as needed */
@@ -55,6 +65,8 @@ body {
     width: 100%;
     height: auto;
 }
+
+
 
 .quote {
     font-style: italic;
