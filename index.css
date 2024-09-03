@@ -11,7 +11,7 @@ h1 {
     font-family: IBM Plex Serif;    
 }
 
-::selection {
+::selection {   
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
@@ -21,6 +21,11 @@ h1 {
 How did I center the site?
 
 */
+
+/* 
+#heading-box {
+    align-items: center;
+} */
 
 #greeting {
     margin: 0 auto;
@@ -34,12 +39,14 @@ How did I center the site?
 
 .greeting_text {
     margin: 5px;
-    font-size: 70px;
+    /* font-size: 70px; */
+    /* max-width: 70px; */
 }
 
 #intro {
     text-align: center;
     margin: 10px;
+    /* background-color: #1E1E1E; */
 }
 
 header {
