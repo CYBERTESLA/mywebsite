@@ -33,12 +33,12 @@ How did I center the site?
     align-items: center;
     text-align: center;
     justify-content: center;
-    flex-wrap: nowrap; 
+    flex-wrap: wrap; 
     font-size: 70px;
 }
 
 .greeting_text {
-    margin: 5px;
+    margin: 5px 5px 5px 5px;
     /* font-size: 70px; */
     /* max-width: 70px; */
 }
