@@ -9,6 +9,7 @@ h1, h2, h3 {
 
 img {
     display: block;
+    width: 80vw;
     margin: 0 auto;
 }
 ::selection {   
