@@ -75,3 +75,27 @@ margin: 0 auto; centers the containers horizontally by setting the left and righ
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: shadow for a nice effect */
 }
+
+
+
+.container { /* For keeping the image and mascot side by side */
+    display: flex; /* flexbox */ 
+    justify-content: center; /* centers the child elements horizontally within the .container. */
+    flex-wrap: nowrap; /* prevents the images from wrapping to the next line on smaller screens. If you want them to wrap, you can use flex-wrap: wrap;. */
+}
+.image1 {
+    flex: 1 1 70%; /* Adjust the width as needed */
+    margin: 10px; /* Space between images */
+}
+.image2 {
+    flex: 1 1 20%; /* Adjust the width as needed */
+    margin: 10px; /* Space between images */
+}
+.image1 img {
+    width: 100%;
+    height: auto;
+}
+.image2 img {
+    width: 100%;
+    height: auto;
+}
