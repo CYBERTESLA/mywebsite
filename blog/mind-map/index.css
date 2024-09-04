@@ -1,0 +1,76 @@
+a {
+    color: #f00;
+    /* color: #6741d9 (purple) */ 
+}
+
+h1, h2, h3 {
+    font-family: IBM Plex Serif;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+::selection {   
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+/*
+How did I center the site?
+
+*/
+
+/* 
+#heading-box {
+    align-items: center;
+} */
+
+/*
+#header {
+    margin:
+}
+*/
+
+html, body {
+    width: 100%; 
+    height: 100%;
+    margin: 0px auto;
+    background: #fff;
+    color: #333;
+    /* font-family: 'Helvetica', 'Arial', sans-serif; #From Nicky*/ 
+    font-family: "IBM Plex Sans Thai Looped";
+    font-size: 23px;
+    font-weight: 100;
+    line-height: 1.4em;
+}
+/*
+width: 100%; and height: 100%; ensure that the html and body elements take up the full viewport.
+margin: 0; removes any default margin that might be applied by the browser, ensuring the content starts from the edge of the viewport.
+*/
+
+#content {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+/*
+width: 100%; allows the containers to take up the full width of their parent container.
+max-width: 800px; limits the maximum width of these containers to 800px, ensuring they don't stretch too wide on large screens.
+margin: 0 auto; centers the containers horizontally by setting the left and right margins to auto.
+*/
+
+
+
+.quote {
+    font-style: normal;
+    color: #555; /* Adjust the color as needed */
+    border-left: 4px solid #ccc; /* Left border for the quote */
+    padding-left: 10px; /* Space between the border and the text */
+    margin: 20px 0; /* Space above and below the quote */
+    background-color: #f9f9f9; /* Optional: background color for the quote */
+    padding: 10px 20px; /* Padding inside the quote */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: shadow for a nice effect */
+}
